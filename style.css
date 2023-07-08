@@ -9,7 +9,7 @@ header{
      padding-top: 250px;
      padding-right: 200px;
      text-align: right;
-     align-items: center;
+     
   
 }
 
@@ -41,4 +41,80 @@ header{
 .design{
 
     align-items: center;
+}
+
+/* main section */
+main{
+
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.main-img{
+
+    width: 600px;
+    height: 600px;
+}
+
+
+/* section start */
+
+.section1{
+
+    height: 50vh;
+}
+
+.section-part{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 25px;
+}
+
+.banner-design{
+
+     height: 50vh;
+     background-image: url(images/watch.png);
+     background-repeat: no-repeat;
+     padding: 60px 20px;
+     margin-left: 190px;
+
+}
+
+/* footer part */
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 7, 7);
+    padding: 100px;
+}
+
+.footer-img{
+    display: flex;
+    gap: 24px;
+}
+
+.f-title{
+
+    color: rgb(211, 31, 31); 
+    font-weight: bolder; 
+    margin: 10px,0px;
+}
+
+.f-input{
+
+    margin-top: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    border-radius: 2px;
 }
